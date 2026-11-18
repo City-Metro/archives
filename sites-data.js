@@ -70,6 +70,7 @@ window.ARCHIVE_SITES = [
     tags: ["maps"],
     live: "https://map.citymetro.xyz",
     versions: [
+       { v: "v1", label: "Version 2" },
       { v: "v1", label: "Version 1" }
     ]
   },
