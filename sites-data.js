@@ -10,10 +10,12 @@
 window.ARCHIVE_SITES = [
   {
     slug: "brickpass",
-    title: "Brickpass",
+    title: "myBrickPass",
     desc: "Archived versions of Brickpass.",
     tags: ["brickpass"],
+     live: "https://mybrickpass.citymetro.xyz",
     versions: [
+       { v: "v3", label: "Version 3" },
       { v: "v2", label: "Version 2" },
       { v: "v1.5", label: "Version 1.5" },
       { v: "v1", label: "Version 1" }
@@ -34,6 +36,7 @@ window.ARCHIVE_SITES = [
     title: "Maps",
     desc: "Archived versions of the City Metro maps.",
     tags: ["maps"],
+     live: "https://map.citymetro.xyz",
     versions: [
       { v: "v1", label: "Version 1" }
     ]
