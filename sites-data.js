@@ -26,7 +26,7 @@ window.ARCHIVE_SITES = [
      live: "https://police.citymetro.xyz",
     versions: [
       { v: "v1", label: "Version 1" },
-       { v: "v2", label: "Version 2" }
+       { v: "v2", label: "Version 2" },
     ]
   },
    {
@@ -93,6 +93,16 @@ window.ARCHIVE_SITES = [
     versions: [
        { v: "v3", label: "Version 3" },
       { v: "v2", label: "Version 2" },
+    ]
+  },
+   {
+    slug: "union-station",
+    title: "Union Station",
+    desc: "Union Station's past official websites.",
+    tags: ["lego city", "station", "rail", "bus"],
+    live: "https://unionstation.citymetro.xyz",
+    versions: 
+      { v: "v1", label: "Version 1" },
     ]
   }
 ];
