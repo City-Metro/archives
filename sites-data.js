@@ -14,9 +14,9 @@ window.ARCHIVE_SITES = [
     desc: "Archived versions of the Brickpass website.",
     tags: ["brickpass"],
     versions: [
+      { v: "v2", label: "Version 2" },
       { v: "v1.5", label: "Version 1.5" },
-      { v: "v1", label: "Version 1" },
-      { v: "v2", label: "Version 2" }
+      { v: "v1", label: "Version 1" }
     ]
   },
   {
