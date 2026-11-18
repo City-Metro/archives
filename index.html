@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>City Metro Archives</title>
+<meta name="description" content="Archived and online websites of City Metro Transit, preserved by the City Metro Transit Museum.">
+<link rel="icon" href="/favicon.ico">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="archive.css">
+</head>
+<body>
+<div id="site-header"></div>
+
+<main>
+  <section class="hero-home">
+    <div class="container">
+      <span class="tag">City Metro Transit Museum</span>
+      <h1>City Metro Archives</h1>
+      <p>Every City Metro website, past and present, in one place. Find an old site or one that is still online.</p>
+      <form class="search-form" id="searchForm" role="search" autocomplete="off">
+        <input id="q" type="search" placeholder="Search websites, years, topics" aria-label="Search the archive">
+        <button class="btn" type="submit">Search</button>
+      </form>
+      <div class="filters" id="filters" role="group" aria-label="Filter by status">
+        <button class="filter" data-f="all" aria-pressed="true">All</button>
+        <button class="filter" data-f="online" aria-pressed="false">Online</button>
+        <button class="filter" data-f="archived" aria-pressed="false">Archived</button>
+      </div>
+    </div>
+  </section>
+
+  <div class="container" id="browse">
+    <p class="count" id="count" aria-live="polite"></p>
+    <div class="grid" id="results"></div>
+  </div>
+
+  <div class="container" id="about">
+    <div class="prose">
+      <h2>About the archive</h2>
+      <p>The City Metro Archives keeps websites City Metro Transit no longer uses, along with the ones still online. It is managed by the <a href="https://museum.citymetro.xyz">City Metro Transit Museum</a>.</p>
+    </div>
+    <div class="cta-band">
+      <h2>Missing a website?</h2>
+      <p>Tell the museum which site we should add, or report a mistake.</p>
+      <a class="btn" href="mailto:museum@citymetro.xyz">Email the museum</a>
+    </div>
+  </div>
+</main>
+
+<div id="site-footer"></div>
+<script src="sites-data.js"></script>
+<script src="site.js"></script>
+</body>
+</html>
