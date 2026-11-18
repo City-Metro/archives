@@ -11,7 +11,7 @@ window.ARCHIVE_SITES = [
   {
     slug: "brickpass",
     title: "Brickpass",
-    desc: "Archived versions of the Brickpass website.",
+    desc: "Archived versions of Brickpass.",
     tags: ["brickpass"],
     versions: [
       { v: "v2", label: "Version 2" },
@@ -22,7 +22,7 @@ window.ARCHIVE_SITES = [
   {
     slug: "live-arrivals",
     title: "Live Arrivals",
-    desc: "Archived versions of the Live Arrivals website.",
+    desc: "Archived versions of Live Arrivals.",
     tags: ["live", "arrivals"],
     versions: [
       { v: "v2", label: "Version 2" },
@@ -32,7 +32,7 @@ window.ARCHIVE_SITES = [
   {
     slug: "maps",
     title: "Maps",
-    desc: "Archived versions of the City Metro maps website.",
+    desc: "Archived versions of the City Metro maps.",
     tags: ["maps"],
     versions: [
       { v: "v1", label: "Version 1" }
@@ -45,8 +45,8 @@ window.ARCHIVE_SITES = [
     tags: ["trip", "planner", "rail", "bus"],
     live: "https://citymetro.xyz/trip",
     versions: [
-      { v: "v2", label: "Version 2", years: "2025–2026" },
-      { v: "v1", label: "Version 1", years: "2024–2025", note: "The original launch." }
+      { v: "v2", label: "Version 2" },
+      { v: "v1", label: "Version 1" }
     ]
   }
 ];
