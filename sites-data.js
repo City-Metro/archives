@@ -9,10 +9,30 @@
              note  = short line shown under the selector (optional)           */
 window.ARCHIVE_SITES = [
    {
+    slug: "web",
+    title: "City Metro Website",
+    desc: "Archived versions of the City Metro website.",
+    tags: ["home, transit, web"],
+     live: "https://citymetro.xyz",
+    versions: [
+      { v: "v3", label: "Version 3" }
+    ]
+  },
+    {
+    slug: "police",
+    title: "Transit Police",
+    desc: "Archived versions of the Transit Poice website.",
+    tags: ["police, safety, security"],
+     live: "https://police.citymetro.xyz",
+    versions: [
+      { v: "v1", label: "Version 1" }
+    ]
+  },
+   {
     slug: "museum",
     title: "Transit Museum",
     desc: "Archived versions of the Transit Museum.",
-    tags: ["brickpass"],
+    tags: ["transit-museum, history, museum"],
      live: "https://museum.citymetro.xyz",
     versions: [
       { v: "v1", label: "Version 1" }
@@ -58,7 +78,7 @@ window.ARCHIVE_SITES = [
     tags: ["trip", "planner", "rail", "bus"],
     live: "https://trip-planner.citymetro.xyz",
     versions: [
-       { v: "v3", label: "Version 2" },
+       { v: "v3", label: "Version 3" },
       { v: "v2", label: "Version 2" },
       { v: "v1", label: "Version 1" }
     ]
