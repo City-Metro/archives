@@ -9,34 +9,44 @@
              note  = short line shown under the selector (optional)           */
 window.ARCHIVE_SITES = [
   {
+    slug: "brickpass",
+    title: "Brickpass",
+    desc: "Archived versions of the Brickpass website.",
+    tags: ["brickpass"],
+    versions: [
+      { v: "v1.5", label: "Version 1.5" },
+      { v: "v1", label: "Version 1" },
+      { v: "v2", label: "Version 2" }
+    ]
+  },
+  {
+    slug: "live-arrivals",
+    title: "Live Arrivals",
+    desc: "Archived versions of the Live Arrivals website.",
+    tags: ["live", "arrivals"],
+    versions: [
+      { v: "v2", label: "Version 2" },
+      { v: "v1", label: "Version 1" }
+    ]
+  },
+  {
+    slug: "maps",
+    title: "Maps",
+    desc: "Archived versions of the City Metro maps website.",
+    tags: ["maps"],
+    versions: [
+      { v: "v1", label: "Version 1" }
+    ]
+  },
+  {
     slug: "trip-planner",
     title: "Trip Planner",
     desc: "Plan a trip across City Metro Rail and Bus.",
     tags: ["trip", "planner", "rail", "bus"],
     live: "https://citymetro.xyz/trip",
     versions: [
-      { v: "v3", label: "Version 3", years: "2026–present", note: "Current live version." },
       { v: "v2", label: "Version 2", years: "2025–2026" },
       { v: "v1", label: "Version 1", years: "2024–2025", note: "The original launch." }
-    ]
-  },
-  {
-    slug: "police",
-    title: "City Metro Transit Police",
-    desc: "Report a concern, locations, divisions, careers and the FLX Police mini site.",
-    tags: ["police", "safety", "cmtp"],
-    live: "https://police.citymetro.xyz",
-    versions: [
-      { v: "v1", label: "Version 1", years: "2026–present" }
-    ]
-  },
-  {
-    slug: "old-example",
-    title: "Example Retired Site",
-    desc: "Replace this example with one of your retired websites. No live link, so every version opens its archived copy.",
-    tags: ["example", "retired"],
-    versions: [
-      { v: "v1", label: "Version 1", years: "2023–2025" }
     ]
   }
 ];
