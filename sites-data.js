@@ -43,7 +43,7 @@ window.ARCHIVE_SITES = [
     title: "Trip Planner",
     desc: "Plan a trip across City Metro Rail and Bus.",
     tags: ["trip", "planner", "rail", "bus"],
-    live: "https://citymetro.xyz/trip",
+    live: "https://trip-planner.citymetro.xyz",
     versions: [
       { v: "v2", label: "Version 2" },
       { v: "v1", label: "Version 1" }
