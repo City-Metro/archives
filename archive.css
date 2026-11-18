@@ -8,7 +8,15 @@
 .plan-panel .filter{border-color:rgba(255,255,255,.75);color:#fff}
 .plan-panel .filter:hover{background:rgba(255,255,255,.16)}
 .plan-panel .filter[aria-pressed="true"]{background:#fff;color:var(--blue);border-color:#fff}
-.hub-wrap .hub-panel{max-width:760px}
+.hub-wrap .hub-panel{max-width:760px;margin:0 auto}
+.hub-wrap .hub-head{text-align:center}
+.plan-panel .filters{justify-content:center}
+
+/* centered hero (this site) */
+.hero-img.center::before{background:linear-gradient(0deg,rgba(6,18,45,.7),rgba(6,18,45,.4))}
+.hero-img.center .container{text-align:center}
+.hero-img.center p{margin-left:auto;margin-right:auto}
+.hero-img.center .btn-row{justify-content:center}
 
 /* results */
 .count{margin:0;color:var(--muted)}
