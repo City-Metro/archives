@@ -26,8 +26,8 @@ window.ARCHIVE_SITES = [
     tags: ["police", "safety", "security"],
     live: "https://police.citymetro.xyz",
     versions: [
-      { v: "v1", label: "Version 1" },
-      { v: "v2", label: "Version 2" }
+      { v: "v2", label: "Version 2" },
+      { v: "v1", label: "Version 1" }
     ]
   },
   {
