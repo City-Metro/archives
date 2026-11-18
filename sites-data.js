@@ -82,5 +82,16 @@ window.ARCHIVE_SITES = [
       { v: "v2", label: "Version 2" },
       { v: "v1", label: "Version 1" }
     ]
+  },
+   {
+    slug: "alerts",
+    title: "Transit Alerts",
+    desc: "Live service alerts for City Metro Rail and Bus.",
+    tags: ["alerts", "live", "rail", "bus"],
+    live: "https://alerts.citymetro.xyz",
+    versions: [
+       { v: "v3", label: "Version 3" },
+      { v: "v2", label: "Version 2" },
+    ]
   }
 ];
