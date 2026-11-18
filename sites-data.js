@@ -6,35 +6,36 @@
              v     = folder name (v1, v2, ...)
              label = what people see (optional, defaults to v)
              years = e.g. "2024–2025" (optional)
-             note  = short line shown under the selector (optional)           */
+             note  = short line shown under the selector (optional)
+*/
 window.ARCHIVE_SITES = [
-   {
+  {
     slug: "web",
     title: "City Metro Website",
     desc: "Archived versions of the City Metro website.",
-    tags: ["home, transit, web"],
-     live: "https://citymetro.xyz",
+    tags: ["home", "transit", "web"],
+    live: "https://citymetro.xyz",
     versions: [
       { v: "v3", label: "Version 3" }
     ]
   },
-    {
+  {
     slug: "police",
     title: "Transit Police",
-    desc: "Archived versions of the Transit Poice website.",
-    tags: ["police, safety, security"],
-     live: "https://police.citymetro.xyz",
+    desc: "Archived versions of the Transit Police website.",
+    tags: ["police", "safety", "security"],
+    live: "https://police.citymetro.xyz",
     versions: [
       { v: "v1", label: "Version 1" },
-       { v: "v2", label: "Version 2" },
+      { v: "v2", label: "Version 2" }
     ]
   },
-   {
+  {
     slug: "museum",
     title: "Transit Museum",
     desc: "Archived versions of the Transit Museum.",
-    tags: ["transit-museum, history, museum"],
-     live: "https://museum.citymetro.xyz",
+    tags: ["transit-museum", "history", "museum"],
+    live: "https://museum.citymetro.xyz",
     versions: [
       { v: "v1", label: "Version 1" }
     ]
@@ -44,9 +45,9 @@ window.ARCHIVE_SITES = [
     title: "myBrickPass",
     desc: "Archived versions of Brickpass.",
     tags: ["brickpass"],
-     live: "https://mybrickpass.citymetro.xyz",
+    live: "https://mybrickpass.citymetro.xyz",
     versions: [
-       { v: "v3", label: "Version 3" },
+      { v: "v3", label: "Version 3" },
       { v: "v2", label: "Version 2" },
       { v: "v1.5", label: "Version 1.5" },
       { v: "v1", label: "Version 1" }
@@ -67,7 +68,7 @@ window.ARCHIVE_SITES = [
     title: "Maps",
     desc: "Archived versions of the City Metro maps.",
     tags: ["maps"],
-     live: "https://map.citymetro.xyz",
+    live: "https://map.citymetro.xyz",
     versions: [
       { v: "v1", label: "Version 1" }
     ]
@@ -79,30 +80,30 @@ window.ARCHIVE_SITES = [
     tags: ["trip", "planner", "rail", "bus"],
     live: "https://trip-planner.citymetro.xyz",
     versions: [
-       { v: "v3", label: "Version 3" },
+      { v: "v3", label: "Version 3" },
       { v: "v2", label: "Version 2" },
       { v: "v1", label: "Version 1" }
     ]
   },
-   {
+  {
     slug: "alerts",
     title: "Transit Alerts",
     desc: "Live service alerts for City Metro Rail and Bus.",
     tags: ["alerts", "live", "rail", "bus"],
     live: "https://alerts.citymetro.xyz",
     versions: [
-       { v: "v3", label: "Version 3" },
-      { v: "v2", label: "Version 2" },
+      { v: "v3", label: "Version 3" },
+      { v: "v2", label: "Version 2" }
     ]
   },
-   {
+  {
     slug: "union-station",
     title: "Union Station",
     desc: "Union Station's past official websites.",
     tags: ["lego city", "station", "rail", "bus"],
     live: "https://unionstation.citymetro.xyz",
-    versions: 
-      { v: "v1", label: "Version 1" },
+    versions: [
+      { v: "v1", label: "Version 1" }
     ]
   }
 ];
