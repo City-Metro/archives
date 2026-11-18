@@ -58,6 +58,7 @@ window.ARCHIVE_SITES = [
     tags: ["trip", "planner", "rail", "bus"],
     live: "https://trip-planner.citymetro.xyz",
     versions: [
+       { v: "v3", label: "Version 2" },
       { v: "v2", label: "Version 2" },
       { v: "v1", label: "Version 1" }
     ]
