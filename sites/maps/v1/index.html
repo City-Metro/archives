@@ -67,35 +67,9 @@
       }
     };
 
-    // Add each line as a polyline to the map with popup on click
-    for (const [name, line] of Object.entries(lines)) {
-      L.polyline(line.coords, {
-        color: line.color,
-        weight: 5,
-        opacity: 0.8,
-        smoothFactor: 1
-      }).addTo(map).bindPopup(name);
-    }
 
-    // Optional: simulated moving train (red dot) along a simple path
-    const train = L.circleMarker([440, 150], {
-      radius: 8,
-      color: 'red',
-      fillColor: '#f03',
-      fillOpacity: 1
-    }).addTo(map);
 
-    let x = 150;
-    let y = 440;
-    setInterval(() => {
-      x += 10;
-      y -= 1;
-      if (x > 5700 || y < 10) {
-        x = 150;
-        y = 440;
-      }
-      train.setLatLng([y, x]);
-    }, 100);
+   
 
   </script>
 </body>
