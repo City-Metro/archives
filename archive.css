@@ -1,0 +1,25 @@
+/* Extra styles for City Metro Archives. Load AFTER your normal styles.css (uses its variables). */
+.search-form{display:flex;gap:10px;max-width:680px;margin:0 0 16px}
+.search-form input{flex:1;min-width:0;min-height:52px;padding:0 20px;border:1.5px solid var(--line);border-radius:999px;background:var(--bg);color:var(--text);font:inherit;-webkit-appearance:none;appearance:none}
+.search-form input:focus{outline:0;border-color:var(--blue)}
+.filters{display:flex;flex-wrap:wrap;gap:8px}
+.filter{padding:8px 18px;border:2px solid var(--blue);border-radius:999px;background:transparent;color:var(--text);font:inherit;font-weight:700;cursor:pointer}
+.filter[aria-pressed="true"]{background:var(--blue);color:#fff}
+.count{margin:32px 0 0;color:var(--muted)}
+.arch-card h3 a{text-decoration:none}
+.arch-card h3 a:hover{text-decoration:underline}
+.arch-meta{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;margin-bottom:10px;color:var(--muted);font-size:.9rem}
+.status{display:inline-block;padding:2px 10px;border-radius:999px;font-size:.72rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:#fff;background:#64748b}
+.status.online{background:#15803d}
+.status.archived{background:var(--blue)}
+.arch-url{margin:0;font-size:.85rem;color:var(--muted);word-break:break-all}
+.empty{grid-column:1/-1;text-align:center;padding:32px;border:1.5px dashed var(--line);border-radius:16px;color:var(--muted)}
+mark{background:#fde68a;color:#3b2a00;border-radius:3px;padding:0 2px}
+@media (max-width:600px){.search-form{flex-direction:column}}
+
+/* version selector */
+.ver-row{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:16px}
+.ver-select{flex:1;min-width:160px;min-height:48px;padding:0 14px;border:1.5px solid var(--line);border-radius:12px;background:var(--bg);color:var(--text);font:inherit}
+.ver-select:focus{outline:0;border-color:var(--blue)}
+.ver-row .btn{min-height:48px;padding:8px 22px}
+.ver-note{margin:8px 0 0;font-size:.88rem;color:var(--muted)}
