@@ -8,6 +8,16 @@
              years = e.g. "2024–2025" (optional)
              note  = short line shown under the selector (optional)           */
 window.ARCHIVE_SITES = [
+   {
+    slug: "museum",
+    title: "Transit Museum",
+    desc: "Archived versions of the Transit Museum.",
+    tags: ["brickpass"],
+     live: "https://museum.citymetro.xyz",
+    versions: [
+      { v: "v1", label: "Version 1" }
+    ]
+  },
   {
     slug: "brickpass",
     title: "myBrickPass",
@@ -32,7 +42,7 @@ window.ARCHIVE_SITES = [
     ]
   },
   {
-    slug: "maps",
+    slug: "map",
     title: "Maps",
     desc: "Archived versions of the City Metro maps.",
     tags: ["maps"],
